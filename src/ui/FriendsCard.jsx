@@ -7,7 +7,7 @@ const FriendsCard = ({friend}) => {
 
 
     return (
-        <Link to={`/cardDetails/${'id'}`} >
+        <Link to={`/card/${'id'}`} >
             <div className="bg-base-100 w-80 shadow-sm rounded-2xl mb-15">
                 <div className="card-body flex justify-center items-center">
                     <img className='rounded-full' src={friend.picture} alt={friend.picture} />

@@ -1,11 +1,12 @@
-import React, { use } from 'react';
+import React from 'react';
 import FriendsCard from '../../ui/FriendsCard';
+import useCard from '../../hooks/usecard';
 
-const friendsPromise = fetch("/public/data.json").then((res) => res.json());
+
 
 const Friends = () => {
 
-    const friends = use(friendsPromise);
+    const {friends} = useCard()
     // console.log(friends)
 
 
