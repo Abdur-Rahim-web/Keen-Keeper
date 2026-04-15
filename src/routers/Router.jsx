@@ -3,6 +3,7 @@ import RootLayout from "../layout/RootLayout";
 import Home from "../pages/Home";
 import Timeline from "../pages/Timeline";
 import Stats from "../pages/Stats";
+import CardDetails from "../pages/CardDetails";
 
 
 
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             {
                 path:'/stats',
                 Component: Stats
+            },
+            {
+                path:'/cardDetails/:id',
+                Component: CardDetails
             }
         ],
         errorElement:<div className="text-center p-20 space-y-3">
