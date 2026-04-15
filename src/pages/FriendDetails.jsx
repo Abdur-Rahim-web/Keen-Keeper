@@ -1,12 +1,12 @@
 import React from 'react';
 import { useParams } from 'react-router';
-import useCard from '../hooks/usecard';
+import useFriend from '../hooks/useFriend';
 
 const FriendDetails = () => {
     const {id} = useParams();
     console.log(id,'id')
 
-    const {friends} = useCard()
+    const {friends} = useFriend()
     console.log(friends)
 
     

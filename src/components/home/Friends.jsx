@@ -1,12 +1,13 @@
 import React from 'react';
 import FriendsCard from '../../ui/FriendsCard';
-import useCard from '../../hooks/usecard';
+import useFriend from '../../hooks/useFriend';
+
 
 
 
 const Friends = () => {
 
-    const {friends} = useCard()
+    const {friends} = useFriend()
     // console.log(friends)
 
 
