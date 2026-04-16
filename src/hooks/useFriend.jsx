@@ -1,6 +1,6 @@
 import React, { use } from 'react';
 
-const friendsPromise = fetch("/public/data.json").then((res) => res.json());
+const friendsPromise = fetch("/data.json").then((res) => res.json());
 
 const useFriend = () => {
 
