@@ -3,7 +3,6 @@ import RootLayout from "../layout/RootLayout";
 import Home from "../pages/Home";
 import Timeline from "../pages/Timeline";
 import Stats from "../pages/Stats";
-import CardDetails from "../pages/FriendDetails";
 import FriendDetails from "../pages/FriendDetails";
 
 
@@ -18,6 +17,10 @@ export const router = createBrowserRouter([
                 Component: Home
             },
             {
+                path:'/friends/:id',
+                Component: FriendDetails
+            },
+            {
                 path:'/timeline',
                 Component: Timeline
             },
@@ -25,10 +28,7 @@ export const router = createBrowserRouter([
                 path:'/stats',
                 Component: Stats
             },
-            {
-                path:'/card/:id',
-                Component: FriendDetails
-            }
+            
         ],
         errorElement:<div className="text-center p-20 space-y-3">
             <h1 className="text-2xl text-blue-500 font-bold">404 - Page Not Found</h1>

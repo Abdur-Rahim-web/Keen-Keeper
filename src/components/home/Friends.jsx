@@ -10,7 +10,7 @@ const Friends = () => {
     const {friends} = useFriend()
     // console.log(friends)
 
-
+    
     return (
         <div>
             <div className=' font-bold text-2xl container mx-auto'>
