@@ -6,7 +6,7 @@ const TextCard = () => {
     const { texts } = useContext(TimelineContext);
     console.log(texts)
     return (
-        <div>
+        <div className='space-y-5'>
             {
                     texts.map((text, ind) => {
                         return (

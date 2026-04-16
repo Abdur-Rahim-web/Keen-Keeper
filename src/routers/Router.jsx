@@ -26,10 +26,6 @@ export const router = createBrowserRouter([
                 Component: Timeline
             },
             {
-                path:'/calls',
-                Component: CallCard
-            },
-            {
                 path:'/stats',
                 Component: Stats
             },

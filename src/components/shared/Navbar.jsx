@@ -7,7 +7,7 @@ import logo from "../../assets/logo.png"
 
 const Navbar = () => {
     return (
-        <div className=''>
+        <div className='sticky top-0 z-50 '>
             <div className="navbar bg-base-100 shadow-sm px-10">
                 <div className="flex-1">
                     <img src={logo} alt="" />

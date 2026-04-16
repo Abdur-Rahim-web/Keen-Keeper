@@ -6,7 +6,7 @@ const VideoCard = () => {
     const { videos } = useContext(TimelineContext);
     console.log(videos)
     return (
-        <div>
+        <div className='space-y-5'>
             {
                     videos.map((video, ind) => {
                         return (
