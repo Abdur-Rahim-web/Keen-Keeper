@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { TimelineContext } from '../context/TimelineProvider';
+import { TimelineContext } from '../context/TimelineContext';
 import textImage from "../assets/text.png"
 
 const TextCard = () => {

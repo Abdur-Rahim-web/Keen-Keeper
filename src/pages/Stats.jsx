@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Legend, Pie, PieChart, Tooltip } from 'recharts';
-import { TimelineContext } from '../context/TimelineProvider';
+import { TimelineContext } from '../context/TimelineContext';
 
 const Stats = () => {
 

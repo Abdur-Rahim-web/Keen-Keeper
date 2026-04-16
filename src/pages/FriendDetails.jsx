@@ -5,7 +5,7 @@ import { MoonLoader } from 'react-spinners';
 import callImage from "../assets/call.png"
 import textImage from "../assets/text.png"
 import videoImage from "../assets/video.png"
-import { TimelineContext } from '../context/TimelineProvider';
+import { TimelineContext } from '../context/TimelineContext';
 
 const FriendDetails = () => {
     const { id } = useParams();
