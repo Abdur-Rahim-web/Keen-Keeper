@@ -13,7 +13,7 @@ const VideoCard = () => {
                             <div key={ind} className="card card-side bg-base-100 shadow-sm">
                                 <figure>
                                     <img
-                                        className='w-30 p-8'
+                                        className='w-35 md:w-30 p-8'
                                         src={videoImage}
                                         alt="Movie" />
                                 </figure>

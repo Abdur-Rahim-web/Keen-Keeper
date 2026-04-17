@@ -19,8 +19,8 @@ const Stats = () => {
                     <h2 className='text-4xl font-bold pb-5'>Friendship Analytics</h2>
                 </div>
 
-                <div className='flex flex-col items-center p-5 sm:p-10 bg-white rounded-2xl'>
-                    <PieChart className='w-full max-w-[300px] aspect-square'
+                <div className='flex flex-col items-center p-15 bg-white rounded-2xl'>
+                    <PieChart className='w-full max-w-75 aspect-square'
                      responsive>
                         <Pie
                             data={data}

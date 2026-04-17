@@ -1,29 +1,12 @@
-import { useEffect, useState } from 'react';
+import React,{ use }  from 'react';
+
+const friendsPromise = fetch("/data.json").then((res) => res.json());
 
 const useFriend = () => {
-    const [friends, setFriends] = useState([]);
-    const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        fetch('/data.json')
-            .then((res) => {
-                if (!res.ok) {
-                    throw new Error('Network error')
-                }
-                return res.json();
-            })
-            .then((data) => {
-                setFriends(data);
-            })
-            .catch((err) => {
-                console.error(err);
-            })
-            .finally(() => {
-                setLoading(false);
-            });
-    }, []);
+    const friends = use(friendsPromise);
 
-    return { friends, loading };
+    return {friends}
 };
 
 export default useFriend;
