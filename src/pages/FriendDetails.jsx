@@ -6,8 +6,10 @@ import callImage from "../assets/call.png"
 import textImage from "../assets/text.png"
 import videoImage from "../assets/video.png"
 import { TimelineContext } from '../context/TimelineContext';
-import { toast } from 'react-toastify/unstyled';
-import FriendsCard from '../ui/FriendsCard';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const FriendDetails = () => {
     const { id } = useParams();
