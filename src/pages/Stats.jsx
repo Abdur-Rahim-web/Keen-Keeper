@@ -13,21 +13,15 @@ const Stats = () => {
     ];
     return (
         <div className='bg-base-200 py-10'>
-            <div className='container mx-auto'>
+            <div className='mx-5'>
+                <div className='container mx-auto'>
                 <div>
                     <h2 className='text-4xl font-bold pb-5'>Friendship Analytics</h2>
                 </div>
 
-                <div className='flex justify-center items-center p-20 bg-white rounded-2xl'>
-                    <PieChart style={
-                        {
-                            width: '30%',
-                            maxWidth: '300px',
-                            maxHeight: '50vh',
-                            marginBottom: '5px',
-                            aspectRatio: 1
-                        }
-                    } responsive>
+                <div className='flex flex-col items-center p-5 sm:p-10 bg-white rounded-2xl'>
+                    <PieChart className='w-full max-w-[300px] aspect-square'
+                     responsive>
                         <Pie
                             data={data}
                             innerRadius="80%"
@@ -41,11 +35,12 @@ const Stats = () => {
                             isAnimationActive={true}
                         />
 
-                        <Legend ></Legend>
+                        <Legend verticalAlign="bottom" align="center"></Legend>
                         <Tooltip></Tooltip>
 
                     </PieChart>
                 </div>
+            </div>
             </div>
         </div>
     );
