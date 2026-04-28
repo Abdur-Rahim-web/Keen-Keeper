@@ -3,7 +3,7 @@
 ## 🚀 Overview
 Friends Dashboard App is a modern responsive React application that displays a list of friends with interactive data visualization. It is designed with a clean UI and optimized for all screen sizes.
 
-🔗 Live Demo: https://startling-narwhal-3d0ffd.netlify.app/
+🔗 Live Demo: https://friend-dashboard.netlify.app/
 
 ---
 
