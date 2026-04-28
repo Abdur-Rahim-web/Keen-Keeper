@@ -1,37 +1,32 @@
 # 📊 Friends Dashboard App
 
-## 🚀 Project Name
-
-**Friends Dashboard App**
-
-## 📝 Description
-
-This is a responsive web application that displays a list of friends with a clean and modern UI. It includes data visualization using charts and is fully optimized for different screen sizes (mobile, tablet, and desktop). The app is built using modern frontend technologies to ensure smooth performance and scalability.
+## 🚀 Overview
+Friends Dashboard App is a modern responsive React application that displays a list of friends with interactive data visualization. It is designed with a clean UI and optimized for all screen sizes.
 
 🔗 Live Demo: https://startling-narwhal-3d0ffd.netlify.app/
 
 ---
 
-## 🛠️ Technologies Used
-
-* **React.js** – For building the user interface
-* **React Router DOM** – For handling navigation between pages
-* **Tailwind CSS** – For styling and responsive design
-* **Component Library** – For pre-built UI components
-* **Recharts** – For creating interactive charts and data visualization
+## 🖼️ Screenshot
+![App Screenshot](./screenshot.png)
 
 ---
 
-## ✨ Key Features
+## 🛠️ Tech Stack
+- React.js – Frontend framework  
+- React Router DOM – Page routing  
+- Tailwind CSS – Styling & responsiveness  
+- Recharts – Data visualization charts  
+- UI Components – Reusable component system  
 
-* 📱 **Fully Responsive Design**
-  Works seamlessly across mobile, tablet, and desktop devices using Tailwind CSS grid system.
+---
 
-* 📊 **Interactive Charts**
-  Displays data visually using Recharts for better user understanding.
-
-* 👥 **Dynamic Friend List**
-  Renders friend data dynamically with reusable components for better scalability.
+## ✨ Features
+- 📱 Fully responsive design (mobile, tablet, desktop)  
+- 👥 Dynamic friends list rendering  
+- 📊 Interactive charts using Recharts  
+- ⚡ Fast and optimized performance  
+- 🧩 Reusable component architecture  
 
 ---
 
@@ -39,30 +34,13 @@ This is a responsive web application that displays a list of friends with a clea
 
 ```bash
 # Clone the repository
-git clone https://github.com/Abdur-Rahim-web/Keen-Keeper
+git clone https://github.com/Abdur-Rahim-web/Keen-Keeper.git
 
-# Navigate to the project folder
-cd your-repo-name
+# Navigate into project directory
+cd Keen-Keeper
 
 # Install dependencies
 npm install
 
-# Run the development server
+# Start development server
 npm run dev
-```
-
----
-
-## 📌 Future Improvements
-
-* Add search and filter functionality
-* Integrate backend API for real data
-* Add authentication system
-
----
-
-## 🙌 Author
-
-Developed by **Abdur Rahim/Abdur-Rahim-web**
-
----
